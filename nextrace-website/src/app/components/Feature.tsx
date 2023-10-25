@@ -1,42 +1,37 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
+  BoltIcon
 } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Push to deploy.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: CloudArrowUpIcon,
+    name: 'Step 1',
+    description: 'Click on NexTrace Logo',
+    icon: BoltIcon,
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
+    name: 'Step 2',
+    description: 'Click Choose File Button to select entry point to your Next.js application',
+    icon: BoltIcon,
   },
   {
-    name: 'Simple queues.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-    icon: ArrowPathIcon,
+    name: 'Step 3',
+    description: 'Click Choose Root Button to select your app folder (note: this folder should not be your project folder as it contains node_modules containing a large number of files. Instead select your app folder containing the entry point of your application)',
+    icon: BoltIcon,
   },
   {
-    name: 'Advanced security.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-    icon: FingerPrintIcon,
+    name: 'Step 4',
+    description: 'Click Start to start tracking your applications network requests',
+    icon: BoltIcon,
   },
   {
-    name: 'Powerful API.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: Cog6ToothIcon,
+    name: 'Step 5',
+    description: 'Click Logs to display additional panel for your console logs for easy file Navigation',
+    icon: BoltIcon,
   },
   {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
-    icon: ServerIcon,
+    name: 'Step 6',
+    description: 'When finished, click STOP',
+    icon: BoltIcon,
   },
 ]
 
@@ -47,12 +42,12 @@ export default function Feature() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">Everything you need</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">No server? No problem.</p>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          {/* <h2 className="text-base font-semibold leading-7 text-indigo-400">Everything you need</h2> */}
+          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Demo</p>
+          {/* <p className="mt-6 text-lg leading-8 text-gray-300">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
             dolor cupiditate blanditiis.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="relative overflow-hidden pt-16">
