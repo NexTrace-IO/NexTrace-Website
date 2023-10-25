@@ -52,7 +52,7 @@ export default function Team() {
               <p className="text-sm leading-6 text-white">{person.role}</p>
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
                 <li>
-                  <a href={person.githubUrl} className="text-gray-400 hover:text-gray-500">
+                  <a target="_blank" href={person.githubUrl} className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Github</span>
                     <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                     <svg className="h-5 w-5" aria-hidden="true" fill="white" viewBox="0 0 16 16">
@@ -67,7 +67,7 @@ export default function Team() {
                   </a>
                 </li>
                 <li>
-                  <a href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
+                  <a target="_blank" href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">LinkedIn</span>
                     <svg className="h-5 w-5" aria-hidden="true" fill="white" viewBox="0 0 20 20">
                       <path

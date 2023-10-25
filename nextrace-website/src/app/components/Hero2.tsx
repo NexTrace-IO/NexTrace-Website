@@ -3,6 +3,7 @@ import { useRef, useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import Alert from './Alert';
 
 
 const navigation = [
@@ -15,6 +16,8 @@ const navigation = [
 
 export default function Hero2() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  
+  const [isAlertVisible, setIsAlertVisible] = useState(false);
 
   const textToCopy = "npm install nextrace";
   const textAreaRef = useRef(null);
@@ -23,6 +26,7 @@ export default function Hero2() {
     try {
       if (textAreaRef.current) {
         await navigator.clipboard.writeText(textToCopy);
+        setIsAlertVisible(true);
       }
     } catch (err) {
       console.error('Failed to copy text: ', err);
@@ -56,8 +60,8 @@ export default function Hero2() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-white">
-                {item.name}
+              <a target="_blank" key={item.name} href={item.href} className="text-md font-semibold leading-6 text-white">
+                {item.name} 
               </a>
             ))}
           </div>
@@ -75,6 +79,7 @@ export default function Hero2() {
                   alt=""
                 />
               </a>
+  
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -162,13 +167,15 @@ export default function Hero2() {
             </a>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-          Next Trace
+          Data to empower your Next.js development
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
           Nextrace is a HTTP request performance monitoring tool that helps you identify, troubleshoot, and debug performance bottlenecks.
           </p>
+          {isAlertVisible && <Alert />}
           <div className="mt-10 flex items-center gap-x-6">
             <a
+              target="_blank"
               href="https://github.com/oslabs-beta/NexTrace/blob/main/README.md"
               className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
