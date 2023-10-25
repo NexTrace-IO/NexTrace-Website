@@ -1,5 +1,5 @@
 import Feature from "./components/Feature";
-import Hero from "./components/Hero";
+import Hero2 from "./components/Hero2";
 import Logos from "./components/Logos";
 import Stats from "./components/Stats";
 import Team from "./components/Team";
@@ -8,7 +8,7 @@ import Team from "./components/Team";
 export default function Home() {
   return (
     <>
-    <Hero/>
+    <Hero2/>
     <Feature/>
     <Stats/>
     <Logos/>

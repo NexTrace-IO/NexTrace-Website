@@ -13,7 +13,7 @@ const people = [
     imageUrl:
       '/connorProfile.jpeg',
       githubUrl: 'https://github.com/connorkeyes',
-    linkedinUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/connor-keyes/',
   },
   {
     name: 'Simon Lin',
@@ -27,6 +27,7 @@ const people = [
     role: 'Software Engineer',
     imageUrl:
       '/joseProfile.jpeg',
+      githubUrl: 'https://github.com/JoseAVelasco',
     linkedinUrl: 'https://www.linkedin.com/in/josealejandrovelasco/',
   },
 ]
@@ -34,6 +35,7 @@ const people = [
 export default function Team() {
   return (
     <div className="bg-gray-900 py-12">
+      
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Meet our team</h2>
@@ -80,6 +82,7 @@ export default function Team() {
             </li>
           ))}
         </ul>
+        
       </div>
     </div>
   )

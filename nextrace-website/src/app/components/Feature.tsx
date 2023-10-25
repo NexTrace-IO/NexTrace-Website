@@ -20,22 +20,22 @@ const features = [
   },
   {
     name: 'Simple queues.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
     icon: ArrowPathIcon,
   },
   {
     name: 'Advanced security.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
+    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
     icon: FingerPrintIcon,
   },
   {
     name: 'Powerful API.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
+    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: Cog6ToothIcon,
   },
   {
     name: 'Database backups.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
     icon: ServerIcon,
   },
 ]
@@ -43,8 +43,10 @@ const features = [
 export default function Feature() {
   return (
     <div className="bg-gray-900 py-24 sm:py-32">
+    
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        
+        <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-400">Everything you need</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">No server? No problem.</p>
           <p className="mt-6 text-lg leading-8 text-gray-300">
@@ -52,7 +54,23 @@ export default function Feature() {
             dolor cupiditate blanditiis.
           </p>
         </div>
-        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+      </div>
+      <div className="relative overflow-hidden pt-16">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <img
+            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            alt="App screenshot"
+            className="rounded-xl shadow-2xl ring-1 ring-white/10"
+            width={2432}
+            height={1442}
+          />
+          <div className="relative" aria-hidden="true">
+            <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-gray-900 pt-[7%]" />
+          </div>
+        </div>
+      </div>
+      <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+        <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-9">
               <dt className="inline font-semibold text-white">

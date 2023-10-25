@@ -63,7 +63,7 @@ export default function Logos() {
           />
             <img
             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 white-svg"
-            src="/express2.svg"
+            src="/express.svg"
             alt="Statamic"
             width={158}
             height={48}
