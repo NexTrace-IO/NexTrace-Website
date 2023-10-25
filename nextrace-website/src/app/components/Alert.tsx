@@ -1,35 +1,6 @@
-// import { CheckCircleIcon, XMarkIcon } from '@heroicons/react/20/solid'
-
-// export default function Alert() {
-//   return (
-//     <div className="rounded-md bg-green-50 p-4">
-//       <div className="flex">
-//         <div className="flex-shrink-0">
-//           <CheckCircleIcon className="h-5 w-5 text-green-400" aria-hidden="true" />
-//         </div>
-//         <div className="ml-3">
-//           <p className="text-sm font-medium text-green-800">Successfully uploaded</p>
-//         </div>
-//         <div className="ml-auto pl-3">
-//           <div className="-mx-1.5 -my-1.5">
-//             <button
-//               type="button"
-//               className="inline-flex rounded-md bg-green-50 p-1.5 text-green-500 hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-green-50"
-//             >
-//               <span className="sr-only">Dismiss</span>
-//               <XMarkIcon className="h-5 w-5" aria-hidden="true" />
-//             </button>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
 import { Fragment, useState } from 'react'
 import { Transition } from '@headlessui/react'
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import { XMarkIcon } from '@heroicons/react/20/solid'
 
 export default function Alert() {
   const [show, setShow] = useState(true)
@@ -41,7 +12,7 @@ export default function Alert() {
         aria-live="assertive"
         className="pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
       >
-        <div className="flex w-full flex-col items-center space-y-4 sm:items-end">
+        <div className="flex w-full flex-col items-center space-y-4 sm:items-center">
           {/* Notification panel, dynamically insert this into the live region when it needs to be displayed */}
           <Transition
             show={show}
@@ -60,8 +31,7 @@ export default function Alert() {
                     <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
-                    <p className="text-sm font-medium text-gray-900">Successfully saved!</p>
-                    <p className="mt-1 text-sm text-gray-500">Anyone with a link can now view this file.</p>
+                    <p className="text-sm font-medium text-gray-900">Copied To Clipboard!</p>
                   </div>
                   <div className="ml-4 flex flex-shrink-0">
                     <button
@@ -72,7 +42,6 @@ export default function Alert() {
                       }}
                     >
                       <span className="sr-only">Close</span>
-                      <XMarkIcon className="h-5 w-5" aria-hidden="true" />
                     </button>
                   </div>
                 </div>
