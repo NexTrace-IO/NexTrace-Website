@@ -1,6 +1,9 @@
 import {
   BoltIcon
-} from '@heroicons/react/20/solid'
+} from '@heroicons/react/20/solid';
+
+import Image from 'next/image';
+
 
 const features = [
   {
@@ -37,7 +40,7 @@ const features = [
 
 export default function Feature() {
   return (
-    <div className="bg-gray-900 py-24 sm:py-32">
+    <div className="bg-gray-900 py-24 sm:py-30">
     
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         
@@ -51,9 +54,13 @@ export default function Feature() {
         </div>
       </div>
       <div className="relative overflow-hidden pt-16">
-        <div className="mx-auto max-w-xl px-6 lg:px-8">
-         <iframe src="https://giphy.com/embed/MT5UUV1d4CXE2A37Dg" width={550} height={550}className="giphy-embed rounded-xl shadow-2xl ring-1 ring-white/10" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Giflytics-MT5UUV1d4CXE2A37Dg"></a></p>
+        
+      {/* <div className="mx-auto max-w-xl px-6 lg:px-8"> */}
+        <div className="mx-auto ml-[16rem]">
           
+        <img src="/demo1.gif" alt='demo1'className="rounded-xl shadow-2xl ring-1 ring-white/10" width={1200}
+            height={1200}></img>     
+
           <div className="relative" aria-hidden="true">
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-gray-900 pt-[7%]" />
           </div>

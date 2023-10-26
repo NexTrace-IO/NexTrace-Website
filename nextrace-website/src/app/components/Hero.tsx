@@ -202,14 +202,14 @@ export default function Hero() {
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-12 lg:max-w-none lg:flex-none xl:ml-23">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-            {/* <img
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            <img
+              src="/table.png"
               alt="App screenshot"
               width={2432}
               height={1442}
               className="w-[55rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 "
-            /> */}
-          <iframe src="https://giphy.com/embed/MT5UUV1d4CXE2A37Dg" width={480} height={480}  className="giphy-embed rounded-xl shadow-2xl ring-1 ring-white/10 lg:row-span-4 ml-[5rem]" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Giflytics-MT5UUV1d4CXE2A37Dg"></a></p>
+            />
+          
           </div>
         </div>
       </div>
