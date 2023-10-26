@@ -5,7 +5,7 @@ const people = [
     imageUrl:
       '/charlesProfile.jpeg',
       githubUrl: 'https://github.com/CharlesAndrewDunlap',
-    linkedinUrl: 'https://www.linkedin.com/in/charles-andrew-dunlap/',
+    linkedinUrl: 'https://www.linkedin.com/in/charles-a-dunlap/',
   },
   {
     name: 'Connor Keyes',
