@@ -9,11 +9,11 @@ import Alert from './Alert';
 
 const navigation = [
   { name: 'Github', href: 'https://github.com/oslabs-beta/NexTrace'},
-  { name: 'Medium', href: '#' },
+  { name: 'Medium', href: 'https://medium.com/@charlesandrewdunlap/nextrace-restoring-network-and-console-developer-tools-for-next-js-42a7c3352fba' },
   { name: 'Linkedin', href: 'https://www.linkedin.com/company/nextrace-dev/' },
 ]
 
-export default function Hero2() {
+export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   
   const [isAlertVisible, setIsAlertVisible] = useState(false);
@@ -190,8 +190,8 @@ export default function Hero2() {
             </div>
             <img
               src="/table.png"
-              alt=""
-              className="mt-10 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+              alt="table"
+              className="mt-10 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-26"
             />
           </div>
         </div>

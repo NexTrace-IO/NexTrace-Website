@@ -6,37 +6,37 @@ import {
 const features = [
   {
     name: 'Step 1',
-    description: 'Click on NexTrace Logo',
+    description: 'Click on the NexTrace logo in the sidepanel.',
     icon: BoltIcon,
   },
   {
     name: 'Step 2',
-    description: 'Click Choose File Button to select entry point to your Next.js application',
+    description: 'Click \'Choose File\' and select the entry point to your Next.js application.',
     icon: BoltIcon,
   },
   {
     name: 'Step 3',
-    description: 'Click Choose Root Button to select your app folder (note: this folder should not be your project folder as it contains node_modules containing a large number of files. Instead select your app folder containing the entry point of your application)',
+    description: 'Click \'Choose Root\' and select your app folder. (note: this folder should not be your project folder as it contains node_modules containing a large number of files. Instead select your app folder containing the entry point of your application)',
     icon: BoltIcon,
   },
   {
     name: 'Step 4',
-    description: 'Click Start to start tracking your applications network requests',
+    description: 'After starting your Next.js application, click \'Start\' to begin tracking your application\'s network requests.',
     icon: BoltIcon,
   },
   {
     name: 'Step 5',
-    description: 'Click Logs to display additional panel for your console logs for easy file Navigation',
+    description: 'Click \'Logs\' to display your console logs and file navigation buttons.',
     icon: BoltIcon,
   },
   {
     name: 'Step 6',
-    description: 'When finished, click STOP',
+    description: 'When finished, click \'Stop\'.',
     icon: BoltIcon,
   },
 ]
 
-export default function Feature2() {
+export default function Feature() {
   return (
     <div className="bg-gray-900 py-24 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
