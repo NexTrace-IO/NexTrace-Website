@@ -147,7 +147,7 @@ export default function Hero() {
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-white">
-              Nextrace is a HTTP request performance monitoring tool that helps you identify, troubleshoot, and debug performance bottlenecks.
+              NexTrace is a VSCode extension that helps Next.js developers identify network request performance bottlenecks and monitor console logs in real time. It makes debugging Next.js applications quick and easy.
               </p>
               {isAlertVisible && <Alert />}
               <div className="mt-10 flex items-center gap-x-6">
