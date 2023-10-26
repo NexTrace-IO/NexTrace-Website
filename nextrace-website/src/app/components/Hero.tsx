@@ -159,6 +159,7 @@ export default function Hero() {
               Get Started
             </a>
             <a
+            target="_blank"
         href="https://marketplace.visualstudio.com/items?itemName=OSLabsBetaNexTrace.NexTrace"
         className="rounded-full flex bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 "
       >
