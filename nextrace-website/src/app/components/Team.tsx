@@ -48,7 +48,7 @@ export default function Team() {
           {people.map((person) => (
             <li key={person.name}>
               <img className="mx-auto h-40 w-40 rounded-full" src={person.imageUrl} alt="" />
-              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
+              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">{person.name}</h3>
               <p className="text-sm leading-6 text-white">{person.role}</p>
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
                 <li>
