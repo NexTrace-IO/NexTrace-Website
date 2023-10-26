@@ -77,7 +77,7 @@ export default function Hero2() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                   alt=""
                 />
               </a>
@@ -154,25 +154,24 @@ export default function Hero2() {
             <a
               target="_blank"
               href="https://github.com/oslabs-beta/NexTrace/blob/main/README.md"
-              className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+              className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
               Get Started
             </a>
-            <button
-        type="button"
-        onClick={handleCopyClick}
-        className="rounded-full flex px-3 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-blue-600 focus-visible:outline-indigo-600 border-4 border-solid border-black"
+            <a
+        href="https://marketplace.visualstudio.com/items?itemName=OSLabsBetaNexTrace.NexTrace"
+        className="rounded-full flex bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 "
       >
         Download From Store <img
             src="/whiteVS.svg"
             alt="Statamic"
             width={20}
             height={20}
-            className='ml-3'
+            className='ml-2'
 
           />
 
-      </button>
+      </a>
             <button
         type="button"
         onClick={handleCopyClick}
