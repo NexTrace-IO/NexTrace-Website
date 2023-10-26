@@ -28,41 +28,41 @@ export default function Logos() {
             height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src="/facebook.svg"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src="/react.svg"
             alt="Statamic"
             width={158}
             height={48}
           />
            <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             src="/tailwind.svg"
             alt="Statamic"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 white-svg"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 white-svg"
             src="/next-js.svg"
             alt="Statamic"
             width={158}
             height={48}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 white-svg"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 white-svg"
             src="/github.svg"
             alt="Statamic"
             width={158}
             height={48}
           />
             <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 white-svg"
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 white-svg"
             src="/express.svg"
             alt="Statamic"
             width={158}
